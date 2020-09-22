@@ -6,12 +6,6 @@ public class Boss {
     private int injury;
     private String defence;
 
-    public Boss(int health, int injury, String defence) {
-        this.health = health;
-        this.injury = injury;
-        this.defence = defence;
-    }
-
     public int getHealth() {
         return health;
     }
